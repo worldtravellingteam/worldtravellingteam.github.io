@@ -7,7 +7,7 @@
 nav ul li
 {
 	font-family:open-sans;
-	font-size:22px;
+	font-size:18px;
 	font-weight:bold;
 }
 
@@ -49,7 +49,7 @@ padding:55px;
 border-radius:0;
 width:60;
 height:40px;
-margin-left:50;
+margin-left:20;
 padding:5px;
 font-weight:bold;
 font-size:20px;
@@ -75,11 +75,11 @@ color:red;
 <div class="container-fluid" style="padding:0;margin:auto">
 <nav class="navbar navbar-default navbar-fixed-top">
 <div class="container-fluid">
-<div class="row" style="">
-<div class="col-md-2" style="margin-left:70px">
-<a class="navbar-brand" href="#"><img src="tr_logo2.png" width="160px"></a>
+<div class="row" style="padding:2">
+<div class="logo col-md-2" style="margin-left:60px;margin-top:-15px !important;">
+<a class="navbar-brand" href="#"><img src="worldtravel1.png" width="85px" height="65px"></a>
 </div>
-<div class="col-md-6 navbar-text" style="margin-top:17px;border-right:0.1px solid lightgrey">
+<div class="col-md-6 navbar-text" style="margin-top:23px;border-right:0.1px solid lightgrey">
 <ul class="nav navbar-nav list-inline text-primary">
 <li>
 Hotels</li><li style="opacity:0.5;color:lightgrey">|</li>
@@ -100,10 +100,10 @@ Flights
 </ul>
 </div>
 <div class="col-md-3 navbar-content" style="">
-<ul class="nav navbar-nav" style="">
-<li><i class="fa fa-home" style="font-size:35px;"></i></li>
+<ul class="nav navbar-nav list-inline" style="">
+<li><i class="fa fa-home" style="font-size:25px;margin-top:22;padding-left:25"></i></li>
 <li><button id="b1" class="btn btn-success navbar-btn text-center">JOIN</button></li>
-<li><i class="fa fa-search" style="font-size:45px;margin-top:12;padding-left:25"></i></li>
+<li><i class="fa fa-search" style="font-size:25px;margin-top:22;padding-left:15"></i></li>
 </ul>
 </div></div></div>
 </nav>
@@ -111,24 +111,41 @@ Flights
 
 <div class="hero" style="padding-top:0;margin-top:65px;position:relative" >
 <div class="container" style="padding-top:250px">
+<div class="row">
 <span class="col-md-offset-2 col-md-10" style="padding-left:0;font-size:45px;color:white;font-family:Monospace">Latest Reviews.Lowest prices.</span>
-<div class="input-group " style=";padding-bottom:150 !important">
-    <input type="text" class="form-control input-block" placeholder="Search" style="border-radius:100px 0px 0px 100px; border-right:collapse;height:50px;width:50%;left:100">
-	<select class="form-control" style="width:150px;height:50px;margin-left:99px;padding:5">
+</div>
+
+<div class="row text-center" style="padding-bottom:150px"><center>
+<div class="col-md-offset-1 col-md-4" style="background-color:;padding:0;margin:auto">
+<div class="input-group" style="float:right;position:relative">  
+	<input type="text" class="form-control" placeholder="Search" style="border-radius:100px 0px 0px 100px;height:50px;width:100%">
+	</div>
+	</div>
+	<div class="col-md-2"  style="background-color:;padding:0;margin:auto">
+	<div class="input-group" style="float:left;width:100%">
+	<select class="form-control" style="width:100%;height:50px;">
 	<option value="1 room,2 Guests">1 room,2 Guests</option>
 	<option value="2 room,4 Guests">2 room,4 Guests</option>
 	<option value="4 room,8 Guests">4 room,8 Guests</option>
 	</select>
-	<input type="date" class="form-control" value="Check in-Check out" style="width:150px;height:50px;padding:5">
-
-    <div class="input-group-btn">
-      <button class="form-control btn btn-default" type="submit" style="border-radius:0 100px 100px 0;border-right:collapse;height:50px;right:107">
+	</div>
+	</div>
+	<div class="col-md-2" style="background-color:;padding:0 !important;margin:auto">
+	<div class="input-group" style="float:left;width:100%" >
+	<input type="date" class="form-control" value="Check in-Check out" style="width:100%;height:50px;">
+	</div>
+	</div>
+<div class="col-md-2" style="background-color:;padding:0 !important;margin:auto">
+    <div class="input-group input-group-btn" >
+      <button class="form-control btn btn-default" type="submit" style="border-radius:0 100px 100px 0;height:50px;float:left">
         <span style="font-size:20">Find Hotels</span>
       </button>
     </div>
+	</div></center>
+  </div>
   </div>
 </div>
-</div>
+
 
 <div class="container">
 <div class="row" >
